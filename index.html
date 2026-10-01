@@ -6,29 +6,380 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinetour</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <div class="bg-[url(/img/HeroImage.png)] w-full h-193">
-        <div class="flex w-200 justify-between items-center">
-            <img style="width: 100px; height: 35px;" src="logo 1.png" alt="">
-            <div class="flex gap-6 items-center w-">
-                <p class="text-lg text-white">Home</p>
-                <p class="text-lg text-white">About</p>
-                <p class="text-lg text-white">Contact</p>
-                <i style="width:20px; height: 20px; color: white;" data-lucide="user"></i>
+<body class="w-[1440px] mx-auto">
+    <div class="bg-[url(HeroImage.png)] h-193.25 bg-cover">
+        <div class="flex w-[1204px] justify-between mx-auto">
+            <img style="width: 100px; height: 33px; margin-top: 33px;" src="logo 1.png" alt="">
+            <div class="flex gap-[70px] items-center mt-[35px]">
+                <p class="text-lg text-white text-[18px] font-[Inter]">Home</p>
+                <p class="text-lg text-white text-[18px] font-[Inter]">About</p>
+                <p class="text-lg text-white text-[18px] font-[Inter]">Contact</p>
+                <i style="width:20px; height: 20px; color: white; " data-lucide="user"></i>
             </div>
-            <div class="w-5 h-5 bg-white rounded-full flex items-center justify-center text-xs">EN</div>
+            <div
+                class="w-10 h-10 mt-[33px] bg-white rounded-full flex items-center justify-center text-xs uppercase font-[Inter] text-[14px]">
+                EN</div>
         </div>
-        <div class="flex flex-col items-center justify-center">
-            <div class="text-[rgba(232,237,242,0.72)] text-3xl">PURE MAGIC</div>
-            <div class="text-[rgba(253,253,254,0.98)] text-8xl">AWAITS!</div>
-            <div class="text-[rgba(255,255,255,0.8)] text-4xl text-bold">2024</div>
+        <div class="flex flex-col items-center justify-center p-[90px]">
+            <div class="text-[rgba(232,237,242,0.72)] text-[80px] font-[Bebas_Neue] leading-none">PURE MAGIC</div>
+            <div class="text-[rgba(253,253,254,0.98)] text-[250px] font-[Bebas_Neue] leading-none">AWAITS!</div>
+            <div
+                class="text-[rgba(255,255,255,0.8)] text-[64px] text-bold font-[Hanuman] leading-[100%] font-black font">
+                2024
+            </div>
         </div>
     </div>
-
-
-
+    <div class="bg-[url(white.png)] w-[1440px] h-[500px] flex justify-center items-center">
+        <div class="flex w-[1202px] h-[370px] mx-auto justify-around gap-[40px]">
+            <div
+                class="group relative bg-[url(loc1.png)] w-[275.5px] h-[370px] bg-cover bg-center rounded-[40px] flex justify-center items-center shadow-[8px_8px_0_rgba(41,114,139,0.25),-8px_-8px_0_rgba(31,114,170,0.46)]">
+                <div
+                    class="absolute inset-0 bg-[rgba(41,41,41,0.4)] opacity-0 cursor-pointer group-hover:opacity-100 rounded-[40px] text-[rgba(253,253,254,0.8)] transition-opacity duration-300">
+                </div>
+                <p
+                    class="relative z-10 font-[Bebas_Neue] text-[rgba(253,253,254,0.8)] text-[37px] text-center pr-2 text-shadow-[0px_4px_4.9px_rgba(0,0,0,0.65)]">
+                    Terkhiin tsagaan
+                    lake
+                </p>
+            </div>
+            <div
+                class="group relative bg-[url(monastry.png)] w-[275.5px] h-[370px] bg-cover bg-center rounded-[40px] flex justify-center items-center shadow-[8px_8px_0_rgba(41,114,139,0.25),-8px_-8px_0_rgba(31,114,170,0.46)]">
+                <div
+                    class="absolute inset-0 bg-[rgba(41,41,41,0.4)] opacity-0 cursor-pointer group-hover:opacity-100 rounded-[40px] text-[rgba(253,253,254,0.8)] transition-opacity duration-300">
+                </div>
+                <p
+                    class="relative z-10 font-[Bebas_Neue] text-[rgba(253,253,254,0.8)] text-[37px] text-center text-shadow-[0px_4px_4.9px_rgba(0,0,0,0.65)]">
+                    Amarbayasgalant
+                    Monastery</p>
+            </div>
+            <div
+                class="group relative bg-[url(lake.png)] w-[275.5px] h-[370px] bg-cover bg-center rounded-[40px] flex justify-center items-center shadow-[8px_8px_0_rgba(41,114,139,0.25),-8px_-8px_0_rgba(31,114,170,0.46)]">
+                <div
+                    class="absolute inset-0 bg-[rgba(41,41,41,0.4)] opacity-0 cursor-pointer group-hover:opacity-100 rounded-[40px] text-[rgba(253,253,254,0.8)] transition-opacity duration-300">
+                </div>
+                <p
+                    class="relative z-10 font-[Bebas_Neue] text-[rgba(253,253,254,0.8)] text-[37px] text-center text-shadow-[0px_4px_4.9px_rgba(0,0,0,0.65)]">
+                    Khuvsgul lake</p>
+            </div>
+            <div
+                class="group relative bg-[url(togoo.png)] w-[275.5px] h-[370px] bg-cover bg-center rounded-[40px] flex justify-center items-center shadow-[8px_8px_0_rgba(41,114,139,0.25),-8px_-8px_0_rgba(31,114,170,0.46)]">
+                <div
+                    class="absolute inset-0 bg-[rgba(41,41,41,0.4)] opacity-0 cursor-pointer group-hover:opacity-100 rounded-[40px] text-[rgba(253,253,254,0.8)] transition-opacity duration-300">
+                </div>
+                <p
+                    class="relative z-10 font-[Bebas_Neue] text-[rgba(253,253,254,0.8)] text-[37px] text-center text-shadow-[0px_4px_4.9px_rgba(0,0,0,0.65)]">
+                    Khorgiin togoo</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[url(Roadmap.png)] w-[1440px] h-[1022px]">
+        <div class="w-[1440px] pt-[120px]">
+            <div
+                class="w-[1440px] flex justify-center items-center font-[Inter] text-[45px] text-[rgba(0,0,0,1)] leading-[100%] font-[400]">
+                Destination of Our
+                Agency
+            </div>
+            <div
+                class="w-[1440px] mt-[10px] flex justify-center items-center font-[Inter] text-[20px] text-[rgba(0,0,0,1)] leading-[100%] font-[300]">
+                Pack
+                your bags and get ready</div>
+        </div>
+        <div class="flex gap-[40px] w-[1200px] h-[640px] mx-auto mt-[69px]">
+            <div class=" w-[513px] h-[640px] flex flex-col gap-[20px]">
+                <div
+                    class="bg-[rgba(238,233,217,1)] w-[513px] h-[112px] rounded-[120px] flex justify-center items-center">
+                    <div class="flex w-full justify-between px-[30px]">
+                        <div>
+                            <div class="text-[rgba(9,9,11,1)] font-[Inter] text-[24px] font-[500] leading-[100%]">
+                                Sukhbaatar square
+                            </div>
+                            <div
+                                class="text-[rgba(24,24,27,1)] leading-[100%] text-[12px] font-[Montserrat] font-[400] mt-[14px] flex gap-[12px]">
+                                <img class="w-[14px] h-[14px] pb-[2px]" src="Iconny.png" alt="">
+                                Ulaanbator
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white rounded-[1000px] flex justify-center items-center font-[14px] font-[500] leading-[100%] w-[52px] h-[48px]">
+                            DAY 1
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-[rgba(139,184,193,0.8)] w-[513px] h-[112px] rounded-[120px] flex justify-center items-center">
+                    <div class="flex w-full justify-between px-[30px]">
+                        <div>
+                            <div class="text-[rgba(9,9,11,1)] font-[Inter] text-[24px] font-[500] leading-[100%]">
+                                Amarbaysgalant monastery</div>
+                            <div
+                                class="text-[rgba(24,24,27,1)] leading-[100%] text-[12px] font-[Montserrat] font-[400] mt-[14px] flex gap-[12px]">
+                                <img class="w-[14px] h-[14px] pb-[2px]" src="Iconny.png" alt="">
+                                Bulgan
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white rounded-[1000px] flex justify-center items-center font-[14px] font-[500] leading-[100%] w-[52px] h-[48px]">
+                            DAY 2
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-[rgba(170,216,215,0.8)] w-[513px] h-[112px] rounded-[120px] flex justify-center items-center">
+                    <div class="flex w-full justify-between px-[30px]">
+                        <div>
+                            <div class="text-[rgba(9,9,11,1)] font-[Inter] text-[24px] font-[500] leading-[100%]">
+                                Khorgiin togoo</div>
+                            <div
+                                class="text-[rgba(24,24,27,1)] leading-[100%] text-[12px] font-[Montserrat] font-[400] mt-[14px] flex gap-[12px]">
+                                <img class="w-[14px] h-[14px] pb-[2px]" src="Iconny.png" alt="">
+                                Arkhangai
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white rounded-[1000px] flex justify-center items-center font-[14px] font-[500] leading-[100%] w-[52px] h-[48px]">
+                            DAY 3
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-[rgba(139,192,189,0.8)] w-[513px] h-[112px] rounded-[120px] flex justify-center items-center">
+                    <div class="flex w-full justify-between px-[30px]">
+                        <div>
+                            <div class="text-[rgba(9,9,11,1)] font-[Inter] text-[24px] font-[500] leading-[100%]">
+                                Terkhiin tsagaan lake</div>
+                            <div
+                                class="text-[rgba(24,24,27,1)] leading-[100%] text-[12px] font-[Montserrat] font-[400] mt-[14px] flex gap-[12px]">
+                                <img class="w-[14px] h-[14px] pb-[2px]" src="Iconny.png" alt="">
+                                Arkhangai
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white rounded-[1000px] flex justify-center items-center font-[14px] font-[500] leading-[100%] w-[52px] h-[48px]">
+                            DAY 4
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-[rgba(151,204,224,0.8)] w-[513px] h-[112px] rounded-[120px] flex justify-center items-center">
+                    <div class="flex w-full justify-between px-[30px]">
+                        <div>
+                            <div class="text-[rgba(9,9,11,1)] font-[Inter] text-[24px] font-[500] leading-[100%]">
+                                Khuvsgul lake</div>
+                            <div
+                                class="text-[rgba(24,24,27,1)] leading-[100%] text-[12px] font-[Montserrat] font-[400] mt-[14px] flex gap-[12px]">
+                                <img class="w-[14px] h-[14px] pb-[2px]" src="Iconny.png" alt="">
+                                Khuvsgul
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white rounded-[1000px] flex justify-center items-center font-[14px] font-[500] leading-[100%] w-[52px] h-[48px]">
+                            DAY 5
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[647px] h-[640px] flex relative">
+                <img class="w-[34px] h-[34px] absolute left-[279px] top-[42px]" src="mappin.png" alt="">
+                <img class="w-[34px] h-[34px] absolute left-[492px] top-[185px]" src="mappin.png" alt="">
+                <img class="w-[34px] h-[34px] absolute left-[107px] top-[164px]" src="mappin.png" alt="">
+                <img class="w-[34px] h-[34px] absolute left-[279px] bottom-[190px]" src="mappin.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="bg-[url(footer.png)] w-[1440px] h-[1120px]">
+        <div class="pt-[40px]">
+            <div
+                class="w-[1440px] flex justify-center items-center font-[Inter] text-[45px] text-[rgba(0,0,0,1)] leading-[100%] font-[400]">
+                Pricing of Our Agency</div>
+            <div
+                class="w-[1440px] mt-[10px] flex justify-center items-center font-[Inter] text-[20px] text-[rgba(0,0,0,1)] leading-[100%] font-[300]">
+                Choose a package that’s right for you</div>
+        </div>
+        <div class="flex justify-center pt-[80px]">
+            <div class="w-[1200px] h-[527px] flex justify-between ">
+                <div class="w-[384px] h-[527px] bg-[rgba(250,251,252,1)] rounded-[40px]">
+                    <div class="w-[384px] h-[92px] flex gap-[16px] items-center ml-[24px]">
+                        <img class="w-[36px] h-[36px]" src="heart.png" alt="">
+                        <div class="text-[18px] font-[Inter] font-[500] leading-[100%]">Budget Package</div>
+                    </div>
+                    <div class="w-[384px] h-[435px]">
+                        <div class="w-[336px] h-[290px] mx-auto">
+                            <div class="flex flex-col gap-[12px]">
+                                <div class="font-[Montserrat] font-[600] text-[40px] leading-[100%] pt-[12px]">500$
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(145,145,145,1)] text-[16px] font-[500] leading-[100%]">
+                                    Essentials Covered
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-[18px] pt-[32px]">
+                                <div
+                                    class="text-[18px] font-[500] ml-[40px] leading-[100%] text-[rgba(18,19,22,1)] font-[Inter]">
+                                    Includes:
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Group transportation (shared van/bus)
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Standard accommodation (yurt or guesthouse)
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Guided lake tour
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    1 meal per day (breakfast)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center pt-[37px]">
+                            <div
+                                class="w-[336px] h-[48px] font-[Inter] font-[600] text-[16px] bg-[rgba(164,209,226,1)] rounded-[40px] mx-auto flex justify-center items-center">
+                                Select package
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[384px] h-[527px] bg-[rgba(250,251,252,1)] rounded-[40px]">
+                    <div class="w-[384px] h-[92px] flex gap-[16px] items-center ml-[24px]">
+                        <img class="w-[36px] h-[36px]" src="heart.png" alt="">
+                        <div class="text-[18px] font-[Inter] font-[500] leading-[100%]">Standard Package</div>
+                    </div>
+                    <div class="w-[384px] h-[435px]">
+                        <div class="w-[336px] h-[290px] mx-auto">
+                            <div class="flex flex-col gap-[10px]">
+                                <div class="font-[Montserrat] font-[600] text-[40px] leading-[100%] pt-[12px]">800$
+                                </div>
+                                <div class="flex justify-between">
+                                    <div
+                                        class="font-[Inter] text-[rgba(145,145,145,1)] text-[16px] font-[500] leading-[100%] flex justify-center items-center">
+                                        Balanced Adventure
+                                    </div>
+                                    <div
+                                        class="w-[91px] h-[27px] bg-[rgba(105,114,181,1)] text-[rgba(250,251,252,1)] rounded-full flex justify-center items-center">
+                                        Popular
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-[20px] pt-[32px]">
+                                <div
+                                    class="text-[18px] font-[500] ml-[40px] leading-[100%] text-[rgba(18,19,22,1)] font-[Inter]">
+                                    Includes:
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Comfortable transportation (mini-bus)
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Mid-range accommodation (private yurt or lodge)
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Guided lake tour + nearby hiking
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    2 meals per day (breakfast and dinner)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center pt-[37px]">
+                            <div
+                                class="w-[336px] h-[48px] font-[Inter] font-[600] text-[16px] bg-[rgba(164,209,226,1)] rounded-[40px] mx-auto flex justify-center items-center">
+                                Select package
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[384px] h-[527px] bg-[rgba(250,251,252,1)] rounded-[40px]">
+                    <div class="w-[384px] h-[92px] flex gap-[16px] items-center ml-[24px]">
+                        <img class="w-[36px] h-[36px]" src="heart.png" alt="">
+                        <div class="text-[18px] font-[Inter] font-[500] leading-[100%]">Luxury Package</div>
+                    </div>
+                    <div class="w-[384px] h-[435px]">
+                        <div class="w-[336px] h-[290px] mx-auto">
+                            <div class="flex flex-col gap-[12px]">
+                                <div class="font-[Montserrat] font-[600] text-[40px] leading-[100%] pt-[12px]">1200$
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(145,145,145,1)] text-[16px] font-[500] leading-[100%]">
+                                    Ultimate Comfort
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-[18px] pt-[32px]">
+                                <div
+                                    class="text-[18px] font-[500] ml-[40px] leading-[100%] text-[rgba(18,19,22,1)] font-[Inter]">
+                                    Includes:
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Private transportation (SUV)
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Luxury accommodation (lakefront lodge)
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    Guided tours (lake + reindeer herder experience)
+                                </div>
+                                <div
+                                    class="font-[Inter] text-[rgba(63,65,69,1)] text-[14px] font-[500] leading-[100%] flex gap-[20px]">
+                                    <img class="w-[20px] h-[20px] pb-[3px]" src="check.png" alt="">
+                                    All meals included (local cuisine)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center pt-[37px]">
+                            <div
+                                class="w-[336px] h-[48px] font-[Inter] font-[600] text-[16px] bg-[rgba(164,209,226,1)] rounded-[40px] mx-auto flex justify-center items-center">
+                                Select package
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-[1440px] h-[204px] flex justify-center items-center pt-[290px]">
+            <div class="w-[1200px] h-[44px] flex justify-between">
+                <div class="flex gap-[20px]">
+                    <div
+                        class="w-[167px] h-[44px] bg-[rgba(250,251,252,1)] text-[rgba(105,114,181,1)] flex justify-between items-center p-[20px] rounded-full text-[18px] font-[700] font-[Montserrat] leading-[100%]">
+                        <img class="w-[24px] h-[24px]" src="Facebook.png" alt="">
+                        Facebook
+                    </div>
+                    <div
+                        class="w-[167px] h-[44px] bg-[rgba(250,251,252,1)] text-[rgba(105,114,181,1)] flex justify-between items-center p-[20px] rounded-full text-[18px] font-[700] font-[Montserrat] leading-[100%]">
+                        <img class="w-[24px] h-[24px]" src="Instagram.png" alt="">
+                        Instagram
+                    </div>
+                </div>
+                <img style="width: 100px; height: 35px;" src="logo 1.png" alt="">
+            </div>
+        </div>
+    </div>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         lucide.createIcons();
